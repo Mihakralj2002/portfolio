@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <head>
-<meta charset="UTF-8">
+        <!-- Meta tags -->
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title> Portfolio </title>
 <link rel="shortcut icon" type="icon" href="wd.png">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="stylesheet" href="responsive.css" type="text/css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
@@ -13,11 +17,11 @@
 <body>
     <nav class="navbar">
         <ul>
-<li><a href:"#home"> Home </a></li>
-<li><a href:"#about"> About Me </a></li>
-<li><a href:"#portfolio"> Portfolio </a></li>
-<li><a href:"#services"> Services  </a></li>
-<li><a href:"#contact"> Contact Me </a></li>
+<li><a href="#home"> Home </a></li>
+<li><a href="#about"> About Me </a></li>
+<li><a href="#portfolio"> Portfolio </a></li>
+<li><a href="#services"> Services  </a></li>
+<li><a href="#contact"> Contact Me </a></li>
 
         </ul>
     </nav>
@@ -33,7 +37,7 @@
     <section id="about">
             <h1 class="headings"> ABOUT ME </h1>
             <div id="pic">
-            <img src="mojaslika.jpg" alt="">
+            <img src="mojaslika.jpg" alt="Moja slika">
             <div id="intro">
                 <h2>Mihajlo Đorđević</h2>
                 <p> My name is Mihajlo Đordđević.
@@ -50,8 +54,8 @@
             <h1 class="headings"> PORTFOLIO</h1>
             <div class="gallery">
                 <img src="dota.jpeg" alt="dota">
-                <img src="sajt.jpeg" alt="">
-                <img src="comming.jpg" alt="">
+                <img src="sajt.jpeg" alt="Sajt 2">
+                <img src="comming.jpg" alt="coming soon" class="cms">
 
             </div>
     </section>
@@ -61,13 +65,13 @@
         <div class="box"> 
             <img src="webdesign.png" alt="webdizajn">
             <h2 class="heading">Website design</h2>
-            <p> creating websites according to the wishes and requirements of the client
+            <p> Creating websites according to the wishes and requirements of the client
                 Able to fulfill every client's request regarding the creation of websites.  </p>
         </div>
         <div class="box"> 
             <img src="cjezik.png" alt="c">
             <h2 class="heading">C language programing</h2>
-            <p> programming in c language.
+            <p> Programming in c language.
              Creating new programs as well as teaching people about the programming language c  </p>
         </div>
         <div class="box"> 
@@ -80,7 +84,7 @@
     </section>
         <section id="contact">
             <h1 class="headings">CONTACT</h1>
-            <form action="" class="form">
+            <form action="" method="get" class="form">
                 <input type="text" name="name" class="input" placeholder="Enter your name">
                 <input type="email" name="email" class="input" placeholder="Enter your email">
                 <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter your message"></textarea>
